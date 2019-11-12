@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v1.1.1...v2.0.0) (2019-11-12)
+
+
+### Code Refactoring
+
+* move to netcoreapp3 ([6b484c0](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/6b484c0))
+
+
+### BREAKING CHANGES
+
+* Move to .NET Core 3
+
 ## [1.1.1](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v1.1.0...v1.1.1) (2019-10-28)
 
 
