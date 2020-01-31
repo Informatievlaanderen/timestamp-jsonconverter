@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([2cf6835](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/2cf683547fc608efda09d2610f64f9a26c5bfe6b))
+
 # [2.1.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
