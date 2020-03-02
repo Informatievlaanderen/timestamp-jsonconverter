@@ -1,6 +1,6 @@
 {
   "name": "timestamp-jsonconverter",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "JSON.NET converter for parsing timestamps in Zulu time.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
