@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.3...v2.2.4) (2020-04-28)
+
+
+### Bug Fixes
+
+* move to 3.1.3 ([38a93f0](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/38a93f0b1511f647a5fe69f23f471273a6f17143))
+
 ## [2.2.3](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.2...v2.2.3) (2020-04-28)
 
 
