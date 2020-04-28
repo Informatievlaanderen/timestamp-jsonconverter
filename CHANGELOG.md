@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.2...v2.2.3) (2020-04-28)
+
+
+### Bug Fixes
+
+* doesnt use jira ([774f914](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/774f914e520cc34f17610cbd6fb3fd60c0ee8e2e))
+
 ## [2.2.2](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.1...v2.2.2) (2020-04-28)
 
 
