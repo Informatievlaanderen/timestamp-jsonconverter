@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.6...v2.2.7) (2020-07-07)
+
+
+### Bug Fixes
+
+* turn the date into UTC when using zulu time ([54a3a84](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/54a3a84409c82b85f10911ba53403fddcf1f5d72))
+
 ## [2.2.6](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.5...v2.2.6) (2020-06-18)
 
 
