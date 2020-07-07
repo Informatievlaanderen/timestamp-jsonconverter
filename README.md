@@ -6,7 +6,58 @@ JSON.NET converter for parsing timestamps in Zulu time.
 
 ## Usage
 
-TODO.
+Apply the `[JsonConverter(typeof(TimestampConverter))]` attribute on the date property you want to have serialized in UTC (Zulu) time.
+
+For example:
+
+```csharp
+namespace Example
+{
+    using System;
+    using Be.Vlaanderen.Basisregisters.Converters.Timestamp;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
+    public class Test
+    {
+        [JsonConverter(typeof(IsoDateTimeConverter))]
+        public DateTimeOffset IsoTimestamp { get; set; }
+
+        [JsonConverter(typeof(TimestampConverter))]
+        public DateTimeOffset ZuluTimestamp { get; set; }
+
+        public DateTimeOffset RegularTimestamp { get; set; }
+    }
+
+    public class Program
+    {
+        public static void Main(string[] _)
+        {
+            var d = new DateTimeOffset(2020, 1, 1, 1, 1, 1, TimeSpan.FromHours(2));
+
+            var test = new Test
+            {
+                IsoTimestamp = d,
+                ZuluTimestamp = d,
+                RegularTimestamp = d
+            };
+
+            Console.WriteLine(JsonConvert.SerializeObject(test, Formatting.Indented));
+        }
+    }
+}
+```
+
+When you run this, this is the output:
+
+```bash
+$ dotnet run
+{
+  "IsoTimestamp": "2020-01-01T01:01:01+02:00",
+  "ZuluTimestamp": "2019-12-31T23:01:01Z",
+  "RegularTimestamp": "2020-01-01T01:01:01+02:00"
+}
+```
 
 ## License
 
