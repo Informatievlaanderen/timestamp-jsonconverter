@@ -5,6 +5,9 @@ namespace Be.Vlaanderen.Basisregisters.Converters.Timestamp
     public class TimestampConverter : IsoDateTimeConverter
     {
         public TimestampConverter()
-            => DateTimeFormat = "yyyy-MM-ddTHH:mm:ssZ";
+        {
+            DateTimeFormat = "yyyy-MM-ddTHH:mm:ssZ";
+            DateTimeStyles = DateTimeStyles.AdjustToUniversal;
+        }
     }
 }
