@@ -1,3 +1,10 @@
+## [2.2.10](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.9...v2.2.10) (2020-11-19)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([ee2a444](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/ee2a4443c83a1a91b21d77f172ef9eaa877fc569))
+
 ## [2.2.9](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.8...v2.2.9) (2020-09-21)
 
 
