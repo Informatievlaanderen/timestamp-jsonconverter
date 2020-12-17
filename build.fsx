@@ -14,7 +14,8 @@ let assemblyVersionNumber = (sprintf "%s.0")
 let nugetVersionNumber = (sprintf "%s")
 
 let buildSource = build assemblyVersionNumber
-let publish = publish assemblyVersionNumber
+let buildTest = buildTest assemblyVersionNumber
+let publishSource = publish assemblyVersionNumber
 let pack = packSolution nugetVersionNumber
 
 supportedRuntimeIdentifiers <- [ "linux-x64" ]
@@ -23,7 +24,7 @@ supportedRuntimeIdentifiers <- [ "linux-x64" ]
 
 Target.create "Lib_Build" (fun _ -> buildSource "Be.Vlaanderen.Basisregisters.Converters.Timestamp")
 
-Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Converters.Timestamp")
+Target.create "Lib_Publish" (fun _ -> publishSource "Be.Vlaanderen.Basisregisters.Converters.Timestamp")
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Converters.Timestamp")
 
 // --------------------------------------------------------------------------------
