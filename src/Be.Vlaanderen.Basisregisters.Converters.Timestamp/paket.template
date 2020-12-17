@@ -15,9 +15,9 @@ licenseUrl https://opensource.org/licenses/MIT
 description JSON.NET converter for parsing timestamps in Zulu time.
 
 dependencies
-  framework: netcoreapp31
+  framework: net5.0
     Newtonsoft.Json >= LOCKEDVERSION
 
 files
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Converters.Timestamp.dll => lib\netcoreapp3.1
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Converters.Timestamp.pdb => lib\netcoreapp3.1
+  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.Converters.Timestamp.dll => lib\net5.0
+  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.Converters.Timestamp.pdb => lib\net5.0
