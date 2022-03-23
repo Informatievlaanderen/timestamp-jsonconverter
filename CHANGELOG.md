@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.14...v3.0.0) (2022-03-23)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([ed28cd5](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/ed28cd50e894f24e8f928d9edfb5b7c9da4ec47b))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [2.2.14](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v2.2.13...v2.2.14) (2021-05-28)
 
 
