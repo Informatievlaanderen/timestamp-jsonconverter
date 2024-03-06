@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.Converters.Timestamp [![Build Status](https://github.com/Informatievlaanderen/timestamp-jsonconverter/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/timestamp-jsonconverter/actions)
+# Be.Vlaanderen.Basisregisters.Converters.Timestamp [![Build Status](https://github.com/Informatievlaanderen/timestamp-jsonconverter/workflows/Build/badge.svg)](https://github.com/Informatievlaanderen/timestamp-jsonconverter/actions)
 
 ## Goal
 
