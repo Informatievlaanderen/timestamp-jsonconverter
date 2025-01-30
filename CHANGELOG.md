@@ -1,3 +1,5 @@
+## [4.0.1](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v4.0.0...v4.0.1) (2025-01-30)
+
 # [4.0.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v3.0.0...v4.0.0) (2024-03-06)
 
 
