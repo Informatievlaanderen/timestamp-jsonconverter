@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bash <(curl -s https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/923d7ba253b31268328483f26c2c28865dd98253/scripts/pre-restore.sh) 7.3.0
+bash <(curl -s https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/9153984d26019cd21a7040d872389812794377cc/scripts/pre-restore.sh) 7.3.1 ./.build
