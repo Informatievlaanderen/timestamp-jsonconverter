@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v4.0.1...v4.1.0) (2026-06-01)
+
+
+### Features
+
+* update packages ([3cc919a](https://github.com/informatievlaanderen/timestamp-jsonconverter/commit/3cc919a9cc56111b4329a137bce7d175418e69ba))
+
 ## [4.0.1](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v4.0.0...v4.0.1) (2025-01-30)
 
 # [4.0.0](https://github.com/informatievlaanderen/timestamp-jsonconverter/compare/v3.0.0...v4.0.0) (2024-03-06)
